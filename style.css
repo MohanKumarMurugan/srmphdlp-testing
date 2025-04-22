@@ -523,6 +523,38 @@ body {
         max-width: 250px;
     }
 }
+@media (max-width: 767px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .hero-section {
+        text-align: center;
+        margin-bottom: 10px;
+        padding-top: 0px;   
+    }
+
+    .hero-image {
+        max-width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .registration-label {
+        display: none !important;
+    }
+
+    .phd-title {
+        text-align: center;
+        font-size: 18px;
+    }
+}
 /* Global Academic Collaborations Carousel */
 .section_title h1 {
     font-size: 36px;
@@ -540,5 +572,32 @@ body {
     max-width: 100%;
     height: 80px;
     object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    #phd-header{
+        transform: rotate(270deg) !important;
+        position: absolute;
+        top: 13vh;
+        font-size: 9vh !important;
+        left: -5vh;
+        font-weight: bold;    
+    }
+    #hero-image{
+        height: 30vh;
+    }
+}
+#phd-header-text{ 
+    font-weight: bold;
+    font-size: 36px; 
+    margin-top: 30px;
+}
+@media (max-width: 768px) {
+    #phd-header-text{
+        font-weight: bold;
+        font-size: 36px;
+        margin-top: -15vh;
+        text-align: start;
+    }
 }
 
